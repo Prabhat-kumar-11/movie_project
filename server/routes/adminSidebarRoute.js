@@ -1,5 +1,5 @@
 const express = require("express");
-const AdminSidebarModel = require("../models/AdminSidebarModel");
+const AdminSidebarModel = require("../models/adminSidebarModel");
 
 const adminSidebarRoute = express.Router();
 
