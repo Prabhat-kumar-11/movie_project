@@ -1,5 +1,5 @@
 const express = require("express");
-const FeaturedSection = require("../models/FeaturedSectionModel");
+const FeaturedSection = require("../models/featuredSectionModel"); // change this to featuredSectionModel
 const authenticate = require("../middlewere/auth");
 
 const FeaturedSectionRoute = express.Router();
